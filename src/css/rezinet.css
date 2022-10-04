@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .h-md-100 {height: 100vh;}
+  }
+  .btn-round { border-radius: 30px;}
+  .bg-indigo {background: white;}
+  .text-cyan { color: indigo;}
+  .social-container {
+      margin: 21px 0;
+  }
+  
+  .social-container a {
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      height: 40px;
+      width: 40px;
+  }
+  
