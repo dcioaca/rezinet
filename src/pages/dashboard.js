@@ -4,6 +4,7 @@ import '../css/dashboard.css';
 import '../css/bootstrap-grid.css';
 import rezinet_logo from '../img/rezinet_icon.png';
 import { Link } from 'react-router-dom';
+import navItems from '../components/mainNavItems';
 
 const Home = () => {
     return ( <> 
@@ -26,11 +27,12 @@ const Home = () => {
       <div class="row">
         <nav class="col-md-2 d-none d-md-block bg-light sidebar">
           <div class="sidebar-sticky">
-            <ul class="nav flex-column">
+            
+          <ul class="nav flex-column">
               <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
               <span>Welcome Daniel</span>
             </h6>
-              <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link active" href="#">
                   <span data-feather="home"></span>
                   Home <span class="sr-only">(current)</span>
@@ -71,7 +73,7 @@ const Home = () => {
                   Help
                 </a>
               </li>
-            </ul>
+              </ul>
 
    
           </div>
